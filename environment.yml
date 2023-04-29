@@ -1,0 +1,29 @@
+name: OneThingOneClick
+channels:
+  - anaconda
+  - conda-forge
+  - nvidia
+  - bioconda
+  - shuangnan
+  - daleydeng
+dependencies:
+  - python
+  - pytorch=1.3
+  - google-sparsehash
+  - libboost
+  - gcc-5
+  - cudnn
+  - cudatoolkit
+  - cuda
+  - pip
+  - pip:
+      - torch==1.3
+      - cmake>=3.13.2
+      - plyfile
+      - tensorboardX
+      - pyyaml
+      - scipy
+      - pillow
+variables:
+  CUDA_HOME: /home/mohammed/thesis/One-Thing-One-Click/.env
+  PYTHONPATH: .
