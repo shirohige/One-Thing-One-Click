@@ -14,7 +14,7 @@
 
 import numpy as np
 from spconv import spconv_utils
-from spconv.spconv_utils import (non_max_suppression, non_max_suppression_cpu,
+from spconv_utils import (non_max_suppression, non_max_suppression_cpu,
                                  points_to_voxel_3d_np, rbbox_iou,
                                  rotate_non_max_suppression_cpu)
 

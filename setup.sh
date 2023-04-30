@@ -24,3 +24,9 @@ LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)/.env/lib
 
 # command to modify file
 sed -i "966s/.*/                        '7.0', '7.2', '7.5', '8.6', '8.8']/" .env/lib/python3.7/site-packages/torch/utils/cpp_extension.py
+
+# If error while building spconv package
+# check for libraries if not exist then create links for them
+# sudo ln -s /home/mohammed/thesis/One-Thing-One-Click/.env/lib/libculibos.a /usr/local/cuda/lib64/libculibos.a
+# sudo ln -s /home/mohammed/thesis/One-Thing-One-Click/.env/lib/libcudart.so /usr/local/cuda/lib64/libcudart.so
+# sudo ln -s /home/mohammed/thesis/One-Thing-One-Click/.env/lib/libnvToolsExt.so /usr/local/cuda/lib64/libnvToolsExt.so

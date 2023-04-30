@@ -26,4 +26,6 @@ dependencies:
       - pillow
 variables:
   CUDA_HOME: /home/mohammed/thesis/One-Thing-One-Click/.env
+  LD_LIBRARY_PATH: /home/mohammed/thesis/One-Thing-One-Click/.env/lib
+  # add path variable
   PYTHONPATH: .
